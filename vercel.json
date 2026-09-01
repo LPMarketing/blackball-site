@@ -1,0 +1,46 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/comidas",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/comidas",
+      "destination": "https://black-ball-comidas-s-fotos.vercel.app/"
+    },
+    {
+      "source": "/comidas/:path*",
+      "destination": "https://black-ball-comidas-s-fotos.vercel.app/:path*"
+    },
+
+    {
+      "source": "/bebidas",
+      "destination": "https://black-ball-bebidas-s-fotos.vercel.app/"
+    },
+    {
+      "source": "/bebidas/:path*",
+      "destination": "https://black-ball-bebidas-s-fotos.vercel.app/:path*"
+    },
+
+    {
+      "source": "/drinks",
+      "destination": "https://black-ball-drinks-s-fotos.vercel.app/"
+    },
+    {
+      "source": "/drinks/:path*",
+      "destination": "https://black-ball-drinks-s-fotos.vercel.app/:path*"
+    },
+
+    {
+      "source": "/rosh",
+      "destination": "https://black-ball-rosh-s-fotos.vercel.app/"
+    },
+    {
+      "source": "/rosh/:path*",
+      "destination": "https://black-ball-rosh-s-fotos.vercel.app/:path*"
+    }
+  ]
+}
