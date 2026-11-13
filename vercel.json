@@ -8,6 +8,14 @@
   ],
   "rewrites": [
     {
+      "source": "/cardapiogoogle",
+      "destination": "https://black-ball-comida-google.vercel.app/"
+    },
+    {
+      "source": "/cardapiogoogle/:path*",
+      "destination": "https://black-ball-comida-google.vercel.app/:path*"
+    },
+    {
       "source": "/clicae",
       "destination": "https://blackball-linkbio-six.vercel.app/"
     },
