@@ -49,12 +49,3 @@
     }
   ]
 }
-
-{
-  "source": "/clicae",
-  "destination": "https://payol-linkbio-two.vercel.app/"
-},
-{
-  "source": "/clicae/:path*",
-  "destination": "https://payol-linkbio-two.vercel.app/:path*"
-}
