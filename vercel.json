@@ -8,6 +8,14 @@
   ],
   "rewrites": [
     {
+      "source": "/clicae",
+      "destination": "https://blackball-linkbio-six.vercel.app/"
+    },
+    {
+      "source": "/clicae/:path*",
+      "destination": "https://blackball-linkbio-six.vercel.app/:path*"
+    },
+    {
       "source": "/lp",
       "destination": "https://black-ball-lp-ten.vercel.app/"
     },
