@@ -8,6 +8,14 @@
   ],
   "rewrites": [
     {
+      "source": "/bebidasgoogle",
+      "destination": "https://black-ball-bebida-google.vercel.app/"
+    },
+    {
+      "source": "/bebidasgoogle/:path*",
+      "destination": "https://black-ball-bebida-google.vercel.app/:path*"
+    },
+    {
       "source": "/cardapiogoogle",
       "destination": "https://black-ball-comida-google.vercel.app/"
     },
