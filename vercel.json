@@ -41,11 +41,11 @@
     },
     {
       "source": "/clicae",
-      "destination": "https://blackball-linkbio-six.vercel.app/"
+      "destination": "https://black-ball-link-bio-test.vercel.app/"
     },
     {
       "source": "/clicae/:path*",
-      "destination": "https://blackball-linkbio-six.vercel.app/:path*"
+      "destination": "https://black-ball-link-bio-test.vercel.app/:path*"
     },
     {
       "source": "/comidas",
